@@ -40,7 +40,7 @@ hijri = f"{Gregorian.today().to_hijri()} - {hijri_day.text}"
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    1403347605,
+    5244755240,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -200,7 +200,7 @@ async def _(event):
     time_name.append("off")
     await sedthon(
         functions.account.UpdateProfileRequest(
-            first_name="@Trntt"
+            first_name="@N1111V"
         )
     )
 
@@ -240,7 +240,7 @@ async def _(event):
     time_bio.append("off")
     await sedthon(
         functions.account.UpdateProfileRequest(
-            about="@TRNTT"
+            about="@N1111V"
         )
     )
 
@@ -575,7 +575,7 @@ async def _(event):
 ☆ البنك : `{ms}`
 ☆ التاريخ : `{m9zpi}`
 ☆ الايدي : `{event.sender_id}`
-☆ تـوب سـورس : @Trntt**
+☆ تـوب سـورس : @N1111V**
 ''')
 
 
