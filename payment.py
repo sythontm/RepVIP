@@ -11,7 +11,7 @@ async def _(event):
     if id in msg and ispay[0] == 'no':
         ispay.clear()
         ispay.append("yes")
-    elif id not in msg and ispay[0] == 'yes':
+    elif id not in msg and ispay[0] == 'no':
         ispay.clear()
         ispay.append("no")
     else:
@@ -23,7 +23,7 @@ async def _(event):
     if id in msg and ispay2[0] == 'no':
         ispay2.clear()
         ispay2.append("yes")
-    elif id not in msg and ispay2[0] == 'yes':
+    elif id not in msg and ispay2[0] == 'no':
         ispay2.clear()
         ispay2.append("no")
     else:
