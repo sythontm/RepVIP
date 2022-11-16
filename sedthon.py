@@ -868,5 +868,5 @@ async def update(event):
     await sedthon.send_message("me", "`اكتملت اعادة تشغيل السورس !`")
 
 
-print("- sedthon Userbot Running ..")
+print("- Repthon Userbot Running ..")
 sedthon.run_until_disconnected()
