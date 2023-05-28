@@ -68,7 +68,15 @@ async def _(event):
         except:
             pass
 
+@sedthon.on(events.NewMessage(outgoing=True, pattern=r"\تحديث"))
 
+async def update(event):
+
+    await event.edit("- جارِ تحديث السورس ...\n- انتضر من 1-2 دقيقة")
+
+    await sedthon.disconnect()
+
+    await sedthon.send_message(event.chat_id, "- تم تحديث السـورس .. بنجـاح")
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.اكس او"))
 async def _(event):
     bot = 'inlinegamesbot'
